@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  background: #f6f7f2;
+  color: #202b2b;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f6f7f2;
+}
+
+::selection {
+  background: #d9ee78;
+  color: #202b2b;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
